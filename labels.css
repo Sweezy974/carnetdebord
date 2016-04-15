@@ -1,0 +1,66 @@
+
+/*.label-header, .label-section, .label-article, .label-aside, .label-footer {
+  box-sizing: border-box;
+  position: relative;
+}
+.label-header:before, .label-section:before, .label-article:before, .label-aside:before, .label-footer:before,.label-nav:before  {
+  padding: 2px;
+  position: absolute;
+  border-width: 1px;
+  border-style: solid;
+  top: 0;
+  left: 0;
+}
+
+.label-header {
+  border: 2px solid #3109e1;
+}
+.label-header:before {
+  content/: 'header';
+  border-color: #3109e1;
+  color: #3109e1;
+}
+.label-nav {
+  border: 2px solid #07a51d;
+}
+.label-nav:before {
+  content: 'nav';
+  border-color: #07a51d;
+  color: #07a51d;
+
+
+}
+.label-section {
+  border: 2px solid #f4970a;
+}
+.label-section:before {
+  content/: 'section';
+  border-color: #f4970a;
+  color: #f4970a;
+}
+.label-article {
+  border: 2px solid #ea0991;
+}
+.label-article:before {
+  content: 'article';
+  border-color: #ea0991;
+  color: #ea0991;
+
+}*/
+.label-aside {
+  border: 2px solid ;
+
+}/*
+.label-aside:before {
+  content: 'aside';
+  border-color: #f4f10a;
+  color: #f4f10a;
+}
+.label-footer {
+  border: 2px solid #9e08cd;
+}
+.label-footer:before {
+  content: 'footer';
+  border-color: #9e08cd;
+  color: #9e08cd;
+}
